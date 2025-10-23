@@ -18,6 +18,12 @@ The src folder contains files for gtest/gmock library.
 
 Building:
 
+For start you need to install the next dependencies:
+```
+pacman -S make
+pacman -S gcc
+pacman -S lcov
+```
 For build your tests open make folder and write "make all". You will see output in the console like that, if all successfully:
 
 ![image](https://github.com/pank0ff/Google-Test-Framework-Sample-Project/assets/90576203/f01fa115-678e-44b9-9fe0-8bba77c6bcec)
